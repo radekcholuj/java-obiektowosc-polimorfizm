@@ -29,7 +29,7 @@ public class ToyShopApp {
                     String material = scanner.nextLine();
 
                     Bear bear = new Bear(name, price, material);
-                    toyShop.addBear(bear);
+                    toyShop.add(bear);
                     break;
                 case 2:
                     System.out.println("Name: ");
@@ -43,7 +43,7 @@ public class ToyShopApp {
                     String type = scanner.nextLine();
 
                     Car car = new Car(name, price, type);
-                    toyShop.addCar(car);
+                    toyShop.add(car);
                     break;
                 case 3:
                     toyShop.displayAll();
